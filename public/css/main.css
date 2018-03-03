@@ -1,3 +1,8 @@
+ul li {
+  border: 1px solid red;
+  list-style: none;
+}
+
 .card img {
   width: 25%;
 }
