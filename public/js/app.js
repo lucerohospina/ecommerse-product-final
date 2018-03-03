@@ -52,7 +52,7 @@ $(document).ready(function() {
       success: function(data) {
         console.log(data.results);
         var data = data.results;
-        // itemsContainer.html('');
+        itemsContainer.html('');
         data.forEach(function(el) {
           var title = el.title;
           var image = el.thumbnail;
@@ -77,26 +77,26 @@ $(document).ready(function() {
 
   // funcion para mostrar items al cargar la pagina.
   function load() {
-    var output = '';
+    itemsContainer.html('');
     $.ajax({
       url: 'https://api.mercadolibre.com/sites/MPE/search?category=MPE1132',
       success: function(data) {
         console.log(data.results);
         var items = data.results;
         console.log(items);
-        items.forEach((items, index) => {
-          output += `
+        items.forEach(function(element) {
+          console.log(element);
+          var output = `
           <div class="card">
-          <img class="card-img-top img-fluid" src="${items.thumbnail}" alt="item-image">
+          <img class="card-img-top img-fluid" src="${element.thumbnail}" alt="item-image">
           <div class="card-body">
-            <h5 class="card-title">${items.title}</h5>
-            <p class="card-text">s/. ${items.price}</p>
+            <h5 class="card-title">${element.title}</h5>
+            <p class="card-text">s/. ${element.price}</p>
           </div>
           </div>
-          `
+          `;
           itemsContainer.append(output);
         });
-        
       }
     });
   }
