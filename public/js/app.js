@@ -31,8 +31,8 @@ $(document).ready(function() {
       var id = el.id;
       console.log(id);
       var template = `
-      <li class="nav-item subcategory" data-id='${id}'>
-      <a class="nav-link" href="/${name}">${name}</a>
+      <li class="subcategory font-weight-bold" data-id='${id}'>
+      <a class="nav-link text-dark" href="/${name}">${name}</a>
       </li>
       `;
       subcategories.append(template);
@@ -61,8 +61,8 @@ $(document).ready(function() {
           console.log(image);
           console.log(price);
           var template = `
-            <div class="card">
-            <img class="card-img-top img-fluid" src="${image}" alt="item-image">
+            <div class="card col-12 col-sm-4 col-md-4 my-1">
+            <img class="card-img-top" src="${image}" alt="item-image">
             <div class="card-body">
               <h5 class="card-title">${title}</h5>
               <p class="card-text">s/. ${price}</p>
@@ -87,8 +87,8 @@ $(document).ready(function() {
         items.forEach(function(element) {
           console.log(element);
           var output = `
-          <div class="card">
-          <img class="card-img-top img-fluid" src="${element.thumbnail}" alt="item-image">
+          <div class="card col-12 col-sm-4 col-md-4 my-1 m-md-0">
+          <img class="card-img-top" src="${element.thumbnail}" alt="item-image">
           <div class="card-body">
             <h5 class="card-title">${element.title}</h5>
             <p class="card-text">s/. ${element.price}</p>

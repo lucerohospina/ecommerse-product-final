@@ -1,8 +1,29 @@
+header{
+  font-family: 'Coiny', cursive;
+}
+
+section {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text-title {
+  font-size: 3.5m;
+}
+
 ul li {
-  border: 1px solid red;
   list-style: none;
 }
 
+ul li:hover {
+  text-decoration: underline;
+}
+
 .card img {
-  width: 25%;
+  width: 37.5%;
+}
+
+@media (min-width: 768px) {
+  .text-title {
+    font-size: 4em;
+  }
 }
