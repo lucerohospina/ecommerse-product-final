@@ -1,25 +1,21 @@
-# E-commerce
+# All 4 Kids
 
-* **Track:** _Especialización Front-end_
-* **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA_
-* **Unidad:** _Producto final_
+All 4 Kids es una página web responsive en donde puedes encontrar artículos para los más pequeños del hogar.
 
-***
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
-## Flujo de trabajo
+#
+## Producto Final Sprint 5: 
+### Single Page Application (SPA)
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+*
+*
+*
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+## Desarrolladoras:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+* [Araceli Gutarra](https://github.com/AraceliGS)
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+* [Gabriela Mamani](https://github.com/gabrielamf)
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+* [Lucero Hospina](https://github.com/lucerohospina)
