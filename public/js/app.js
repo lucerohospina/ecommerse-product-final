@@ -62,10 +62,10 @@ $(document).ready(function() {
           console.log(price);
           var template = `
             <div class="card col-12 col-sm-4 col-md-4 my-1">
-            <img class="card-img-top" src="${image}" alt="item-image">
+            <img class="card-img-top align-self-center" src="${image}" alt="item-image">
             <div class="card-body">
               <h5 class="card-title">${title}</h5>
-              <p class="card-text">s/. ${price}</p>
+              <p class="card-text d-flex justify-content-center">s/. ${price}</p>
             </div>
             </div>
             `;
@@ -88,10 +88,10 @@ $(document).ready(function() {
           console.log(element);
           var output = `
           <div class="card col-12 col-sm-4 col-md-4 my-1 m-md-0">
-          <img class="card-img-top" src="${element.thumbnail}" alt="item-image">
+          <img class="card-img-top align-self-center" src="${element.thumbnail}" alt="item-image">
           <div class="card-body">
             <h5 class="card-title">${element.title}</h5>
-            <p class="card-text">s/. ${element.price}</p>
+            <p class="card-text d-flex justify-content-center">s/. ${element.price}</p>
           </div>
           </div>
           `;

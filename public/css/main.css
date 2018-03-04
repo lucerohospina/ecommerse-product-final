@@ -1,29 +1,68 @@
-header{
+header {
   font-family: 'Coiny', cursive;
+  background-color: #DB7B1C;
 }
 
 section {
   font-family: 'Quicksand', sans-serif;
 }
 
+.main-content-row {
+  padding: .5em;
+}
+
 .text-title {
   font-size: 3.5m;
 }
 
-ul li {
-  list-style: none;
+.items-div {
+  margin-top: .5em;
 }
 
-ul li:hover {
+.subcategories-list {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.subcategories-list li {
+  list-style: none;
+  display: inline-block;
+  background-image: url(https://www.decopeques.com/wp-content/uploads/2014/07/Des-Enfantillages-6.jpg);
+  background-position: 42% 70%;
+  margin-top: 1em;
+}
+
+.subcategories-list li:hover {
+  background-color: #F9B732;
   text-decoration: underline;
 }
 
 .card img {
   width: 37.5%;
+  padding: 2em 0 0;
 }
 
 @media (min-width: 768px) {
   .text-title {
     font-size: 4em;
+  }
+
+  .subcategories-div, .items-div {
+    margin-top: .8em;
+  }
+
+  .subcategories-list {
+    /* padding-left: 40px; */
+    text-align: left;
+    background-image: url(https://www.decopeques.com/wp-content/uploads/2014/07/Des-Enfantillages-6.jpg);
+    background-position: center;
+    margin-top: 1em;
+  }
+
+  .subcategories-list li {
+    display: flex;
+    background-image: none;
+    background-position: inherit;
+    margin-top: 0;
   }
 }

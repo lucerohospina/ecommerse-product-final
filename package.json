@@ -18,7 +18,8 @@
     "url": "https://github.com/lucerohospina/ecommerse-product-final/issues"
   },
   "homepage": "https://github.com/lucerohospina/ecommerse-product-final#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "express": "^4.16.2"
   }
 }
