@@ -27,7 +27,7 @@ section {
 .subcategories-list li {
   list-style: none;
   display: inline-block;
-  background-image: url(https://www.decopeques.com/wp-content/uploads/2014/07/Des-Enfantillages-6.jpg);
+  background-image: url('../assets/images/background-image.jpg');
   background-position: 42% 70%;
   margin-top: 1em;
 }
@@ -54,7 +54,7 @@ section {
   .subcategories-list {
     /* padding-left: 40px; */
     text-align: left;
-    background-image: url(https://www.decopeques.com/wp-content/uploads/2014/07/Des-Enfantillages-6.jpg);
+    background-image: url('../assets/images/background-image.jpg');
     background-position: center;
     margin-top: 1em;
   }
