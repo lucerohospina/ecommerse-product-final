@@ -39,6 +39,7 @@ $(document).ready(function() {
     });
   }
 
+
   // funcion para mostrar items al click de cada subcategoria.
   function showItems(context) {
     console.log(context);
@@ -102,4 +103,5 @@ $(document).ready(function() {
   }
   load();
 });
+
 
