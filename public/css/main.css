@@ -15,6 +15,10 @@ section {
   font-size: 3.5m;
 }
 
+header h1:hover {
+  color: #343a40;
+}
+
 .items-div {
   margin-top: .5em;
 }
