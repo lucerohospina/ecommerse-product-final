@@ -7,6 +7,14 @@ section {
   font-family: 'Quicksand', sans-serif;
 }
 
+ul li:nth-child(2) {
+  display: none;
+}
+
+ul li:last-child {
+  display: none;
+}
+
 .main-content-row {
   padding: .5em;
 }
